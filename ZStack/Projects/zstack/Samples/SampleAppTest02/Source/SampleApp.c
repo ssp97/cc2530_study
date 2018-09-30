@@ -238,6 +238,10 @@ void SampleApp_Init( uint8 task_id )
   RegisterForKeys( SampleApp_TaskID );
   MT_UartInit();
   MT_UartRegisterTaskID( SampleApp_TaskID );
+  
+  P1DIR = 0xff;  // 设置P1为输出方式
+  P1 = 0xc0;
+  
 }
 
 /*********************************************************************
@@ -283,7 +287,7 @@ uint16 SampleApp_ProcessEvent( uint8 task_id, uint16 events )
               || (SampleApp_NwkState == DEV_ROUTER)
               || (SampleApp_NwkState == DEV_END_DEVICE) )
           {
-            HalLedBlink (HAL_LED_1, 3, 50, 1000); 
+            //HalLedBlink (HAL_LED_1, 3, 50, 1000); 
             // Start sending the periodic message in a regular interval.
             //osal_start_timerEx( SampleApp_TaskID,
             //                  SAMPLEAPP_SEND_PERIODIC_MSG_EVT,
@@ -386,7 +390,25 @@ void SampleApp_HandleKeys( uint8 shift, uint8 keys )
   }
   
   if ( keys & HAL_KEY_SW_6){
-    HalLedBlink (HAL_LED_2, 3, 50, 1000); 
+    
+    const unsigned char seg7table[16] = {
+    /* 0       1       2       3       4       5       6      7*/
+    0xc0,   0xf9,   0xa4,   0xb0,   0x99,   0x92,   0x82,   0xf8,
+    /* 8       9      A        B       C       D       E      F*/
+    0x80,   0x90,   0x88,   0x83,   0xc6,   0xa1,   0x86,   0x8e };
+    static unsigned char num = 0;
+    num++;
+    num%=10;
+    if(!(num%2)){
+      HalLedBlink (HAL_LED_1, 2, 50, 1000); 
+      HalLedSet(HAL_LED_2,HAL_LED_MODE_OFF);
+    }
+    else{
+      HalLedBlink (HAL_LED_2, 2, 50, 1000); 
+      HalLedSet(HAL_LED_1,HAL_LED_MODE_OFF);
+    }
+    P1 =  seg7table[num];
+    
     HalUARTWrite(0,"helloWorld\r\n",strlen("helloWorld\r\n"));
   }
 }

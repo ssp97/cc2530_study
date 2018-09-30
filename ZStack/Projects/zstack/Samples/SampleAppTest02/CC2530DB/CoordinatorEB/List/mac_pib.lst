@@ -1,6 +1,6 @@
 ###############################################################################
 #                                                                             #
-# IAR C/C++ Compiler V8.10.1.10194/W32 for 8051         28/Sep/2018  09:48:20 #
+# IAR C/C++ Compiler V8.10.1.10194/W32 for 8051         30/Sep/2018  08:52:55 #
 # Copyright 2004-2011 IAR Systems AB.                                         #
 #                                                                             #
 #    Core               =  plain                                              #
@@ -9,17 +9,17 @@
 #    Calling convention =  xdata reentrant                                    #
 #    Constant location  =  data_rom                                           #
 #    Dptr setup         =  1,16                                               #
-#    Source file        =  D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high #
-#                          _level\mac_pib.c                                   #
-#    Command line       =  -f D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\ #
-#                          Samples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC #
-#                          2530DB\f8wCoord.cfg (-DCPU32MHZ                    #
-#                          -DROOT=__near_func -DMAC_CFG_APP_PENDING_QUEUE=TRU #
-#                          E -DMAC_CFG_TX_DATA_MAX=5 -DMAC_CFG_TX_MAX=8       #
+#    Source file        =  D:\zigbee\cc2530_study\ZStack\Components\mac\high_ #
+#                          level\mac_pib.c                                    #
+#    Command line       =  -f D:\zigbee\cc2530_study\ZStack\Projects\zstack\S #
+#                          amples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC2 #
+#                          530DB\f8wCoord.cfg (-DCPU32MHZ -DROOT=__near_func  #
+#                          -DMAC_CFG_APP_PENDING_QUEUE=TRUE                   #
+#                          -DMAC_CFG_TX_DATA_MAX=5 -DMAC_CFG_TX_MAX=8         #
 #                          -DMAC_CFG_RX_MAX=5 -DZDO_COORDINATOR -DRTR_NWK)    #
-#                          -f D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\ #
-#                          Samples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC #
-#                          2530DB\f8wConfig.cfg (-DZIGBEEPRO -DSECURE=0       #
+#                          -f D:\zigbee\cc2530_study\ZStack\Projects\zstack\S #
+#                          amples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC2 #
+#                          530DB\f8wConfig.cfg (-DZIGBEEPRO -DSECURE=0        #
 #                          -DZG_SECURE_DYNAMIC=0 -DREFLECTOR                  #
 #                          -DDEFAULT_CHANLIST=0x00002000                      #
 #                          -DZDAPP_CONFIG_PAN_ID=0xFFFF                       #
@@ -42,87 +42,86 @@
 #                          __code" -DGENERIC=__generic                        #
 #                          -DRFD_RCVC_ALWAYS_ON=FALSE -DPOLL_RATE=1000        #
 #                          -DQUEUED_POLL_RATE=100 -DRESPONSE_POLL_RATE=100)   #
-#                          -DREJOIN_POLL_RATE=440 D:\zigbee\ZStack-CC2530-2.5 #
-#                          .1a\Components\mac\high_level\mac_pib.c -D         #
+#                          -DREJOIN_POLL_RATE=440 D:\zigbee\cc2530_study\ZSta #
+#                          ck\Components\mac\high_level\mac_pib.c -D          #
 #                          ZTOOL_P1 -D xMT_TASK -D xMT_SYS_FUNC -D            #
 #                          xMT_ZDO_FUNC -D xLCD_SUPPORTED=DEBUG -lC           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\List\  #
-#                          -lA D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack #
-#                          \Samples\SampleAppTest02\CC2530DB\CoordinatorEB\Li #
-#                          st\ --diag_suppress Pe001,Pa010 -o                 #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\   #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\List\   #
+#                          -lA D:\zigbee\cc2530_study\ZStack\Projects\zstack\ #
+#                          Samples\SampleAppTest02\CC2530DB\CoordinatorEB\Lis #
+#                          t\ --diag_suppress Pe001,Pa010 -o                  #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\    #
 #                          -e --no_code_motion --debug --core=plain           #
 #                          --dptr=16,1 --data_model=large                     #
 #                          --code_model=banked --calling_convention=xdata_ree #
 #                          ntrant --place_constants=data_rom                  #
-#                          --nr_virtual_regs 16 -I D:\zigbee\ZStack-CC2530-2. #
-#                          5.1a\Projects\zstack\Samples\SampleAppTest02\CC253 #
-#                          0DB\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zs #
-#                          tack\Samples\SampleAppTest02\CC2530DB\..\Source\   #
-#                          -I D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\ #
-#                          Samples\SampleAppTest02\CC2530DB\..\..\..\ZMain\TI #
-#                          2530DB\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Projects #
-#                          \zstack\Samples\SampleAppTest02\CC2530DB\..\..\..\ #
-#                          ..\..\Components\hal\include\ -I                   #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\hal\target\CC2530EB\ -I                      #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mac\include\ -I D:\zigbee\ZStack-CC2530-2.5. #
-#                          1a\Projects\zstack\Samples\SampleAppTest02\CC2530D #
-#                          B\..\..\..\..\..\Components\mac\high_level\ -I     #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mac\low_level\srf04\ -I                      #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mac\low_level\srf04\single_chip\ -I          #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mt\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Projec #
-#                          ts\zstack\Samples\SampleAppTest02\CC2530DB\..\..\. #
-#                          .\..\..\Components\osal\include\ -I                #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\services\saddr\ -I                           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\services\sdata\ -I                           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\stack\af\ -I D:\zigbee\ZStack-CC2530-2.5.1a\ #
-#                          Projects\zstack\Samples\SampleAppTest02\CC2530DB\. #
-#                          .\..\..\..\..\Components\stack\nwk\ -I             #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\stack\sapi\ -I D:\zigbee\ZStack-CC2530-2.5.1 #
-#                          a\Projects\zstack\Samples\SampleAppTest02\CC2530DB #
-#                          \..\..\..\..\..\Components\stack\sec\ -I           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\stack\sys\ -I D:\zigbee\ZStack-CC2530-2.5.1a #
+#                          --nr_virtual_regs 16 -I D:\zigbee\cc2530_study\ZSt #
+#                          ack\Projects\zstack\Samples\SampleAppTest02\CC2530 #
+#                          DB\ -I D:\zigbee\cc2530_study\ZStack\Projects\zsta #
+#                          ck\Samples\SampleAppTest02\CC2530DB\..\Source\ -I  #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\ZMain\TI2530 #
+#                          DB\ -I D:\zigbee\cc2530_study\ZStack\Projects\zsta #
+#                          ck\Samples\SampleAppTest02\CC2530DB\..\..\..\..\.. #
+#                          \Components\hal\include\ -I                        #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\hal\target\CC2530EB\ -I                       #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mac\include\ -I D:\zigbee\cc2530_study\ZStack #
 #                          \Projects\zstack\Samples\SampleAppTest02\CC2530DB\ #
-#                          ..\..\..\..\..\Components\stack\zdo\ -I            #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\zmac\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Proj #
-#                          ects\zstack\Samples\SampleAppTest02\CC2530DB\..\.. #
-#                          \..\..\..\Components\zmac\f8w\ -Ohz                #
+#                          ..\..\..\..\..\Components\mac\high_level\ -I       #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mac\low_level\srf04\ -I                       #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mac\low_level\srf04\single_chip\ -I           #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mt\ -I D:\zigbee\cc2530_study\ZStack\Projects #
+#                          \zstack\Samples\SampleAppTest02\CC2530DB\..\..\..\ #
+#                          ..\..\Components\osal\include\ -I                  #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\services\saddr\ -I D:\zigbee\cc2530_study\ZSt #
+#                          ack\Projects\zstack\Samples\SampleAppTest02\CC2530 #
+#                          DB\..\..\..\..\..\Components\services\sdata\ -I    #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\stack\af\ -I D:\zigbee\cc2530_study\ZStack\Pr #
+#                          ojects\zstack\Samples\SampleAppTest02\CC2530DB\..\ #
+#                          ..\..\..\..\Components\stack\nwk\ -I               #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\stack\sapi\ -I D:\zigbee\cc2530_study\ZStack\ #
+#                          Projects\zstack\Samples\SampleAppTest02\CC2530DB\. #
+#                          .\..\..\..\..\Components\stack\sec\ -I             #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\stack\sys\ -I D:\zigbee\cc2530_study\ZStack\P #
+#                          rojects\zstack\Samples\SampleAppTest02\CC2530DB\.. #
+#                          \..\..\..\..\Components\stack\zdo\ -I              #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\zmac\ -I D:\zigbee\cc2530_study\ZStack\Projec #
+#                          ts\zstack\Samples\SampleAppTest02\CC2530DB\..\..\. #
+#                          .\..\..\Components\zmac\f8w\ -Ohz                  #
 #                          --require_prototypes                               #
-#    List file          =  D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\List\m #
-#                          ac_pib.lst                                         #
-#    Object file        =  D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\ma #
-#                          c_pib.r51                                          #
+#    List file          =  D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\List\ma #
+#                          c_pib.lst                                          #
+#    Object file        =  D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\mac #
+#                          _pib.r51                                           #
 #                                                                             #
 #                                                                             #
 ###############################################################################
 
-D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
+D:\zigbee\cc2530_study\ZStack\Components\mac\high_level\mac_pib.c
       1          /**************************************************************************************************
       2            Filename:       mac_pib.c
       3            Revised:        $Date: 2012-02-15 12:54:07 -0800 (Wed, 15 Feb 2012) $
@@ -1016,26 +1015,26 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
     387            /* handle special cases */
     388            switch (pibAttribute)
    \   00011A   E5..         MOV     A,?V0 + 3
-   \   00011C   24B0         ADD     A,#-0x50
-   \   00011E   6017         JZ      ??MAC_MlmeSetReq_9
-   \   000120   24FE         ADD     A,#-0x2
-   \   000122   602D         JZ      ??MAC_MlmeSetReq_10
-   \   000124   14           DEC     A
-   \   000125   601D         JZ      ??MAC_MlmeSetReq_11
-   \   000127   2473         ADD     A,#0x73
-   \   000129   604B         JZ      ??MAC_MlmeSetReq_12
-   \   00012B   14           DEC     A
-   \   00012C   6035         JZ      ??MAC_MlmeSetReq_13
-   \   00012E   14           DEC     A
-   \   00012F   603C         JZ      ??MAC_MlmeSetReq_14
-   \   000131   24FD         ADD     A,#-0x3
-   \   000133   6048         JZ      ??MAC_MlmeSetReq_15
+   \   00011C   2420         ADD     A,#0x20
+   \   00011E   6056         JZ      ??MAC_MlmeSetReq_9
+   \   000120   14           DEC     A
+   \   000121   6040         JZ      ??MAC_MlmeSetReq_10
+   \   000123   14           DEC     A
+   \   000124   6047         JZ      ??MAC_MlmeSetReq_11
+   \   000126   24FD         ADD     A,#-0x3
+   \   000128   6053         JZ      ??MAC_MlmeSetReq_12
+   \   00012A   2495         ADD     A,#-0x6b
+   \   00012C   6009         JZ      ??MAC_MlmeSetReq_13
+   \   00012E   24FE         ADD     A,#-0x2
+   \   000130   601F         JZ      ??MAC_MlmeSetReq_14
+   \   000132   14           DEC     A
+   \   000133   600F         JZ      ??MAC_MlmeSetReq_15
    \   000135   804E         SJMP    ??MAC_MlmeSetReq_1
     389            {
     390              case MAC_PAN_ID:
     391                /* set pan id in radio */
     392                macRadioSetPanID(macPib.panId);
-   \                     ??MAC_MlmeSetReq_9:
+   \                     ??MAC_MlmeSetReq_13:
    \   000137                ; Setup parameters for call to function macRadioSetPanID
    \   000137   90....       MOV     DPTR,#macPib + 29
    \   00013A   E0           MOVX    A,@DPTR
@@ -1050,7 +1049,7 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
     395              case MAC_SHORT_ADDRESS:
     396                /* set short address in radio */
     397                macRadioSetShortAddr(macPib.shortAddress);
-   \                     ??MAC_MlmeSetReq_11:
+   \                     ??MAC_MlmeSetReq_15:
    \   000144                ; Setup parameters for call to function macRadioSetShortAddr
    \   000144   90....       MOV     DPTR,#macPib + 33
    \   000147   E0           MOVX    A,@DPTR
@@ -1065,7 +1064,7 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
     400              case MAC_RX_ON_WHEN_IDLE:
     401                /* turn rx on or off */
     402                if (macPib.rxOnWhenIdle)
-   \                     ??MAC_MlmeSetReq_10:
+   \                     ??MAC_MlmeSetReq_14:
    \   000151   90....       MOV     DPTR,#macPib + 32
    \   000154   E0           MOVX    A,@DPTR
    \   000155   7902         MOV     R1,#0x2
@@ -1088,7 +1087,7 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
     411          
     412              case MAC_LOGICAL_CHANNEL:
     413                macRadioSetChannel(macPib.logicalChannel);
-   \                     ??MAC_MlmeSetReq_13:
+   \                     ??MAC_MlmeSetReq_10:
    \   000163                ; Setup parameters for call to function macRadioSetChannel
    \   000163   90....       MOV     DPTR,#macPib + 48
    \   000166   E0           MOVX    A,@DPTR
@@ -1100,7 +1099,7 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
     416              case MAC_EXTENDED_ADDRESS:
     417                /* set ext address in radio */
     418                macRadioSetIEEEAddr(macPib.extendedAddress.addr.extAddr);
-   \                     ??MAC_MlmeSetReq_14:
+   \                     ??MAC_MlmeSetReq_11:
    \   00016D                ; Setup parameters for call to function macRadioSetIEEEAddr
    \   00016D   7A..         MOV     R2,#(macPib + 49) & 0xff
    \   00016F   7B..         MOV     R3,#((macPib + 49) >> 8) & 0xff
@@ -1121,7 +1120,7 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
     431                 * with HAL_PA_LNAxxx definition (without runtime selection)
     432                 * the attribute value is not a negative absolute value. */
     433                macPib.phyTransmitPower = (uint8)(-(int8)macPib.phyTransmitPower);
-   \                     ??MAC_MlmeSetReq_12:
+   \                     ??MAC_MlmeSetReq_9:
    \   000176   90....       MOV     DPTR,#macPib + 47
    \   000179   E0           MOVX    A,@DPTR
    \   00017A   F4           CPL     A
@@ -1134,7 +1133,7 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\mac\high_level\mac_pib.c
     438          
     439              case MAC_PHY_TRANSMIT_POWER_SIGNED:
     440                (void)macRadioSetTxPower(macPib.phyTransmitPower);
-   \                     ??MAC_MlmeSetReq_15:
+   \                     ??MAC_MlmeSetReq_12:
    \   00017D                ; Setup parameters for call to function macRadioSetTxPower
    \   00017D   90....       MOV     DPTR,#macPib + 47
    \   000180   E0           MOVX    A,@DPTR

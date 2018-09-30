@@ -304,22 +304,22 @@ extern void MAC_RfFrontendSetup(void);
 
   #define HAL_TURN_OFF_LED1()       st( LED1_SBIT = LED1_POLARITY (0); )
   #define HAL_TURN_OFF_LED2()       st( LED2_SBIT = LED2_POLARITY (0); )
-  #define HAL_TURN_OFF_LED3()       st( LED3_SBIT = LED3_POLARITY (0); )
+  #define HAL_TURN_OFF_LED3()       HAL_TURN_OFF_LED1()//st( LED3_SBIT = LED3_POLARITY (0); )
   #define HAL_TURN_OFF_LED4()       HAL_TURN_OFF_LED1()
 
   #define HAL_TURN_ON_LED1()        st( LED1_SBIT = LED1_POLARITY (1); )
   #define HAL_TURN_ON_LED2()        st( LED2_SBIT = LED2_POLARITY (1); )
-  #define HAL_TURN_ON_LED3()        st( LED3_SBIT = LED3_POLARITY (1); )
+  #define HAL_TURN_ON_LED3()        HAL_TURN_ON_LED1()//st( LED3_SBIT = LED3_POLARITY (1); )
   #define HAL_TURN_ON_LED4()        HAL_TURN_ON_LED1()
 
   #define HAL_TOGGLE_LED1()         st( if (LED1_SBIT) { LED1_SBIT = 0; } else { LED1_SBIT = 1;} )
   #define HAL_TOGGLE_LED2()         st( if (LED2_SBIT) { LED2_SBIT = 0; } else { LED2_SBIT = 1;} )
-  #define HAL_TOGGLE_LED3()         st( if (LED3_SBIT) { LED3_SBIT = 0; } else { LED3_SBIT = 1;} )
+  #define HAL_TOGGLE_LED3()         HAL_TOGGLE_LED1()//st( if (LED3_SBIT) { LED3_SBIT = 0; } else { LED3_SBIT = 1;} )
   #define HAL_TOGGLE_LED4()         HAL_TOGGLE_LED1()
 
   #define HAL_STATE_LED1()          (LED1_POLARITY (LED1_SBIT))
   #define HAL_STATE_LED2()          (LED2_POLARITY (LED2_SBIT))
-  #define HAL_STATE_LED3()          (LED3_POLARITY (LED3_SBIT))
+  #define HAL_STATE_LED3()          HAL_STATE_LED1()//(LED3_POLARITY (LED3_SBIT))
   #define HAL_STATE_LED4()          HAL_STATE_LED1()
 
 #elif defined (HAL_BOARD_CC2530EB_REV13) || defined (HAL_PA_LNA) || defined (HAL_PA_LNA_CC2590)

@@ -1,6 +1,6 @@
 ###############################################################################
 #                                                                             #
-# IAR C/C++ Compiler V8.10.1.10194/W32 for 8051         28/Sep/2018  09:48:18 #
+# IAR C/C++ Compiler V8.10.1.10194/W32 for 8051         30/Sep/2018  09:13:38 #
 # Copyright 2004-2011 IAR Systems AB.                                         #
 #                                                                             #
 #    Core               =  plain                                              #
@@ -9,17 +9,17 @@
 #    Calling convention =  xdata reentrant                                    #
 #    Constant location  =  data_rom                                           #
 #    Dptr setup         =  1,16                                               #
-#    Source file        =  D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\targ #
-#                          et\CC2530EB\hal_key.c                              #
-#    Command line       =  -f D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\ #
-#                          Samples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC #
-#                          2530DB\f8wCoord.cfg (-DCPU32MHZ                    #
-#                          -DROOT=__near_func -DMAC_CFG_APP_PENDING_QUEUE=TRU #
-#                          E -DMAC_CFG_TX_DATA_MAX=5 -DMAC_CFG_TX_MAX=8       #
+#    Source file        =  D:\zigbee\cc2530_study\ZStack\Components\hal\targe #
+#                          t\CC2530EB\hal_key.c                               #
+#    Command line       =  -f D:\zigbee\cc2530_study\ZStack\Projects\zstack\S #
+#                          amples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC2 #
+#                          530DB\f8wCoord.cfg (-DCPU32MHZ -DROOT=__near_func  #
+#                          -DMAC_CFG_APP_PENDING_QUEUE=TRUE                   #
+#                          -DMAC_CFG_TX_DATA_MAX=5 -DMAC_CFG_TX_MAX=8         #
 #                          -DMAC_CFG_RX_MAX=5 -DZDO_COORDINATOR -DRTR_NWK)    #
-#                          -f D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\ #
-#                          Samples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC #
-#                          2530DB\f8wConfig.cfg (-DZIGBEEPRO -DSECURE=0       #
+#                          -f D:\zigbee\cc2530_study\ZStack\Projects\zstack\S #
+#                          amples\SampleAppTest02\CC2530DB\..\..\..\Tools\CC2 #
+#                          530DB\f8wConfig.cfg (-DZIGBEEPRO -DSECURE=0        #
 #                          -DZG_SECURE_DYNAMIC=0 -DREFLECTOR                  #
 #                          -DDEFAULT_CHANLIST=0x00002000                      #
 #                          -DZDAPP_CONFIG_PAN_ID=0xFFFF                       #
@@ -42,87 +42,86 @@
 #                          __code" -DGENERIC=__generic                        #
 #                          -DRFD_RCVC_ALWAYS_ON=FALSE -DPOLL_RATE=1000        #
 #                          -DQUEUED_POLL_RATE=100 -DRESPONSE_POLL_RATE=100)   #
-#                          -DREJOIN_POLL_RATE=440 D:\zigbee\ZStack-CC2530-2.5 #
-#                          .1a\Components\hal\target\CC2530EB\hal_key.c -D    #
+#                          -DREJOIN_POLL_RATE=440 D:\zigbee\cc2530_study\ZSta #
+#                          ck\Components\hal\target\CC2530EB\hal_key.c -D     #
 #                          ZTOOL_P1 -D xMT_TASK -D xMT_SYS_FUNC -D            #
 #                          xMT_ZDO_FUNC -D xLCD_SUPPORTED=DEBUG -lC           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\List\  #
-#                          -lA D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack #
-#                          \Samples\SampleAppTest02\CC2530DB\CoordinatorEB\Li #
-#                          st\ --diag_suppress Pe001,Pa010 -o                 #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\   #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\List\   #
+#                          -lA D:\zigbee\cc2530_study\ZStack\Projects\zstack\ #
+#                          Samples\SampleAppTest02\CC2530DB\CoordinatorEB\Lis #
+#                          t\ --diag_suppress Pe001,Pa010 -o                  #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\    #
 #                          -e --no_code_motion --debug --core=plain           #
 #                          --dptr=16,1 --data_model=large                     #
 #                          --code_model=banked --calling_convention=xdata_ree #
 #                          ntrant --place_constants=data_rom                  #
-#                          --nr_virtual_regs 16 -I D:\zigbee\ZStack-CC2530-2. #
-#                          5.1a\Projects\zstack\Samples\SampleAppTest02\CC253 #
-#                          0DB\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zs #
-#                          tack\Samples\SampleAppTest02\CC2530DB\..\Source\   #
-#                          -I D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\ #
-#                          Samples\SampleAppTest02\CC2530DB\..\..\..\ZMain\TI #
-#                          2530DB\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Projects #
-#                          \zstack\Samples\SampleAppTest02\CC2530DB\..\..\..\ #
-#                          ..\..\Components\hal\include\ -I                   #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\hal\target\CC2530EB\ -I                      #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mac\include\ -I D:\zigbee\ZStack-CC2530-2.5. #
-#                          1a\Projects\zstack\Samples\SampleAppTest02\CC2530D #
-#                          B\..\..\..\..\..\Components\mac\high_level\ -I     #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mac\low_level\srf04\ -I                      #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mac\low_level\srf04\single_chip\ -I          #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\mt\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Projec #
-#                          ts\zstack\Samples\SampleAppTest02\CC2530DB\..\..\. #
-#                          .\..\..\Components\osal\include\ -I                #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\services\saddr\ -I                           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\services\sdata\ -I                           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\stack\af\ -I D:\zigbee\ZStack-CC2530-2.5.1a\ #
-#                          Projects\zstack\Samples\SampleAppTest02\CC2530DB\. #
-#                          .\..\..\..\..\Components\stack\nwk\ -I             #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\stack\sapi\ -I D:\zigbee\ZStack-CC2530-2.5.1 #
-#                          a\Projects\zstack\Samples\SampleAppTest02\CC2530DB #
-#                          \..\..\..\..\..\Components\stack\sec\ -I           #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\stack\sys\ -I D:\zigbee\ZStack-CC2530-2.5.1a #
+#                          --nr_virtual_regs 16 -I D:\zigbee\cc2530_study\ZSt #
+#                          ack\Projects\zstack\Samples\SampleAppTest02\CC2530 #
+#                          DB\ -I D:\zigbee\cc2530_study\ZStack\Projects\zsta #
+#                          ck\Samples\SampleAppTest02\CC2530DB\..\Source\ -I  #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\ZMain\TI2530 #
+#                          DB\ -I D:\zigbee\cc2530_study\ZStack\Projects\zsta #
+#                          ck\Samples\SampleAppTest02\CC2530DB\..\..\..\..\.. #
+#                          \Components\hal\include\ -I                        #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\hal\target\CC2530EB\ -I                       #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mac\include\ -I D:\zigbee\cc2530_study\ZStack #
 #                          \Projects\zstack\Samples\SampleAppTest02\CC2530DB\ #
-#                          ..\..\..\..\..\Components\stack\zdo\ -I            #
-#                          D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\..\..\..\..\..\Compo #
-#                          nents\zmac\ -I D:\zigbee\ZStack-CC2530-2.5.1a\Proj #
-#                          ects\zstack\Samples\SampleAppTest02\CC2530DB\..\.. #
-#                          \..\..\..\Components\zmac\f8w\ -Ohz                #
+#                          ..\..\..\..\..\Components\mac\high_level\ -I       #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mac\low_level\srf04\ -I                       #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mac\low_level\srf04\single_chip\ -I           #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\mt\ -I D:\zigbee\cc2530_study\ZStack\Projects #
+#                          \zstack\Samples\SampleAppTest02\CC2530DB\..\..\..\ #
+#                          ..\..\Components\osal\include\ -I                  #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\services\saddr\ -I D:\zigbee\cc2530_study\ZSt #
+#                          ack\Projects\zstack\Samples\SampleAppTest02\CC2530 #
+#                          DB\..\..\..\..\..\Components\services\sdata\ -I    #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\stack\af\ -I D:\zigbee\cc2530_study\ZStack\Pr #
+#                          ojects\zstack\Samples\SampleAppTest02\CC2530DB\..\ #
+#                          ..\..\..\..\Components\stack\nwk\ -I               #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\stack\sapi\ -I D:\zigbee\cc2530_study\ZStack\ #
+#                          Projects\zstack\Samples\SampleAppTest02\CC2530DB\. #
+#                          .\..\..\..\..\Components\stack\sec\ -I             #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\stack\sys\ -I D:\zigbee\cc2530_study\ZStack\P #
+#                          rojects\zstack\Samples\SampleAppTest02\CC2530DB\.. #
+#                          \..\..\..\..\Components\stack\zdo\ -I              #
+#                          D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\..\..\..\..\..\Compon #
+#                          ents\zmac\ -I D:\zigbee\cc2530_study\ZStack\Projec #
+#                          ts\zstack\Samples\SampleAppTest02\CC2530DB\..\..\. #
+#                          .\..\..\Components\zmac\f8w\ -Ohz                  #
 #                          --require_prototypes                               #
-#    List file          =  D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\List\h #
-#                          al_key.lst                                         #
-#    Object file        =  D:\zigbee\ZStack-CC2530-2.5.1a\Projects\zstack\Sam #
-#                          ples\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\ha #
-#                          l_key.r51                                          #
+#    List file          =  D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\List\ha #
+#                          l_key.lst                                          #
+#    Object file        =  D:\zigbee\cc2530_study\ZStack\Projects\zstack\Samp #
+#                          les\SampleAppTest02\CC2530DB\CoordinatorEB\Obj\hal #
+#                          _key.r51                                           #
 #                                                                             #
 #                                                                             #
 ###############################################################################
 
-D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
+D:\zigbee\cc2530_study\ZStack\Components\hal\target\CC2530EB\hal_key.c
       1          /**************************************************************************************************
       2          Filename:       hal_key.c
       3          Revised:        $Date: 2010-09-15 19:02:45 -0700 (Wed, 15 Sep 2010) $
@@ -227,11 +226,6 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
    \                     PICTL:
    \   000000                DS 1
 
-   \                                 In  segment SFR_AN, at 0x9a
-   \   unsigned char volatile __sfr IEN2
-   \                     IEN2:
-   \   000000                DS 1
-
    \                                 In  segment SFR_AN, at 0xa8
    \   union <unnamed> volatile __sfr _A_IEN0
    \                     _A_IEN0:
@@ -240,11 +234,6 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
    \                                 In  segment SFR_AN, at 0xab
    \   unsigned char volatile __sfr P0IEN
    \                     P0IEN:
-   \   000000                DS 1
-
-   \                                 In  segment SFR_AN, at 0xac
-   \   unsigned char volatile __sfr P2IEN
-   \                     P2IEN:
    \   000000                DS 1
 
    \                                 In  segment SFR_AN, at 0xb8
@@ -267,19 +256,9 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
    \                     P0SEL:
    \   000000                DS 1
 
-   \                                 In  segment SFR_AN, at 0xf5
-   \   unsigned char volatile __sfr P2SEL
-   \                     P2SEL:
-   \   000000                DS 1
-
    \                                 In  segment SFR_AN, at 0xfd
    \   unsigned char volatile __sfr P0DIR
    \                     P0DIR:
-   \   000000                DS 1
-
-   \                                 In  segment SFR_AN, at 0xff
-   \   unsigned char volatile __sfr P2DIR
-   \                     P2DIR:
    \   000000                DS 1
      84          #include "hal_defs.h"
      85          #include "hal_types.h"
@@ -420,29 +399,25 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
     189            HAL_KEY_SW_6_DIR &= ~(HAL_KEY_SW_6_BIT);    /* Set pin direction to Input */
    \   00000C   53FDEF       ANL     0xfd,#0xef
     190            
-    191            HAL_KEY_JOY_MOVE_SEL &= ~(HAL_KEY_JOY_MOVE_BIT); /* Set pin function to GPIO */
-   \   00000F   53F5FD       ANL     0xf5,#0xfd
-    192            HAL_KEY_JOY_MOVE_DIR &= ~(HAL_KEY_JOY_MOVE_BIT); /* Set pin direction to Input */
-   \   000012   53FFFD       ANL     0xff,#0xfd
+    191            //HAL_KEY_JOY_MOVE_SEL &= ~(HAL_KEY_JOY_MOVE_BIT); /* Set pin function to GPIO */
+    192            //HAL_KEY_JOY_MOVE_DIR &= ~(HAL_KEY_JOY_MOVE_BIT); /* Set pin direction to Input */
     193            
     194            
     195            /* Initialize callback function */
     196            pHalKeyProcessFunction  = NULL;
-   \   000015   90....       MOV     DPTR,#pHalKeyProcessFunction
-   \   000018   F0           MOVX    @DPTR,A
-   \   000019   A3           INC     DPTR
-   \   00001A   F0           MOVX    @DPTR,A
+   \   00000F   90....       MOV     DPTR,#pHalKeyProcessFunction
+   \   000012   F0           MOVX    @DPTR,A
+   \   000013   A3           INC     DPTR
+   \   000014   F0           MOVX    @DPTR,A
     197            
     198            /* Start with key is not configured */
     199            HalKeyConfigured = FALSE;
-   \   00001B   90....       MOV     DPTR,#HalKeyConfigured
-   \   00001E   F0           MOVX    @DPTR,A
+   \   000015   90....       MOV     DPTR,#HalKeyConfigured
+   \   000018   F0           MOVX    @DPTR,A
     200          }
-   \   00001F   02....       LJMP    ?Subroutine0 & 0xFFFF
-   \   000022                REQUIRE P0SEL
-   \   000022                REQUIRE P0DIR
-   \   000022                REQUIRE P2SEL
-   \   000022                REQUIRE P2DIR
+   \   000019   02....       LJMP    ?Subroutine0 & 0xFFFF
+   \   00001C                REQUIRE P0SEL
+   \   00001C                REQUIRE P0DIR
 
    \                                 In  segment BANKED_CODE, align 1, keep-with-next
    \                     ?Subroutine0:
@@ -489,7 +464,7 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
     222            if (Hal_KeyIntEnable)
    \   000012   90....       MOV     DPTR,#Hal_KeyIntEnable
    \   000015   E0           MOVX    A,@DPTR
-   \   000016   6033         JZ      ??HalKeyConfig_0
+   \   000016   6024         JZ      ??HalKeyConfig_0
     223            {
     224              /* Rising/Falling edge configuratinn */
     225              
@@ -518,12 +493,10 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
     243              
     244              /* Rising/Falling edge configuratinn */
     245              
-    246              HAL_KEY_JOY_MOVE_ICTL &= ~(HAL_KEY_JOY_MOVE_EDGEBIT);    /* Clear the edge bit */
-   \   000026   53ACF7       ANL     0xac,#0xf7
+    246              //HAL_KEY_JOY_MOVE_ICTL &= ~(HAL_KEY_JOY_MOVE_EDGEBIT);    /* Clear the edge bit */
     247              /* For falling edge, the bit must be set. */
     248          #if (HAL_KEY_JOY_MOVE_EDGE == HAL_KEY_FALLING_EDGE)
-    249              HAL_KEY_JOY_MOVE_ICTL |= HAL_KEY_JOY_MOVE_EDGEBIT;
-   \   000029   43AC08       ORL     0xac,#0x8
+    249              //HAL_KEY_JOY_MOVE_ICTL |= HAL_KEY_JOY_MOVE_EDGEBIT;
     250          #endif
     251              
     252              
@@ -532,66 +505,60 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
     255              * - Enable CPU interrupt
     256              * - Clear any pending interrupt
     257              */
-    258              HAL_KEY_JOY_MOVE_ICTL |= HAL_KEY_JOY_MOVE_ICTLBIT;
-   \   00002C   43AC02       ORL     0xac,#0x2
-    259              HAL_KEY_JOY_MOVE_IEN |= HAL_KEY_JOY_MOVE_IENBIT;
-   \   00002F   439A02       ORL     0x9a,#0x2
-    260              HAL_KEY_JOY_MOVE_PXIFG = ~(HAL_KEY_JOY_MOVE_BIT);
-   \   000032   758BFD       MOV     0x8b,#-0x3
+    258              //HAL_KEY_JOY_MOVE_ICTL |= HAL_KEY_JOY_MOVE_ICTLBIT;
+    259              //HAL_KEY_JOY_MOVE_IEN |= HAL_KEY_JOY_MOVE_IENBIT;
+    260              //HAL_KEY_JOY_MOVE_PXIFG = ~(HAL_KEY_JOY_MOVE_BIT);
     261              
     262              
     263              /* Do this only after the hal_key is configured - to work with sleep stuff */
     264              if (HalKeyConfigured == TRUE)
-   \   000035   90....       MOV     DPTR,#HalKeyConfigured
-   \   000038   E0           MOVX    A,@DPTR
-   \   000039   6401         XRL     A,#0x1
-   \   00003B   701F         JNZ     ??HalKeyConfig_1
+   \   000026   90....       MOV     DPTR,#HalKeyConfigured
+   \   000029   E0           MOVX    A,@DPTR
+   \   00002A   6401         XRL     A,#0x1
+   \   00002C   701F         JNZ     ??HalKeyConfig_1
     265              {
     266                osal_stop_timerEx(Hal_TaskID, HAL_KEY_EVENT);  /* Cancel polling if active */
-   \   00003D                ; Setup parameters for call to function osal_stop_timerEx
-   \   00003D   7A01         MOV     R2,#0x1
-   \   00003F   7B00         MOV     R3,#0x0
-   \   000041   90....       MOV     DPTR,#Hal_TaskID
-   \   000044   E0           MOVX    A,@DPTR
-   \   000045   F9           MOV     R1,A
-   \   000046   12....       LCALL   ??osal_stop_timerEx?relay
-   \   000049   8011         SJMP    ??HalKeyConfig_1
+   \   00002E                ; Setup parameters for call to function osal_stop_timerEx
+   \   00002E   7A01         MOV     R2,#0x1
+   \   000030   7B00         MOV     R3,#0x0
+   \   000032   90....       MOV     DPTR,#Hal_TaskID
+   \   000035   E0           MOVX    A,@DPTR
+   \   000036   F9           MOV     R1,A
+   \   000037   12....       LCALL   ??osal_stop_timerEx?relay
+   \   00003A   8011         SJMP    ??HalKeyConfig_1
     267              }
     268            }
     269            else    /* Interrupts NOT enabled */
     270            {
     271              HAL_KEY_SW_6_ICTL &= ~(HAL_KEY_SW_6_ICTLBIT); /* don't generate interrupt */
    \                     ??HalKeyConfig_0:
-   \   00004B   53ABEF       ANL     0xab,#0xef
+   \   00003C   53ABEF       ANL     0xab,#0xef
     272              HAL_KEY_SW_6_IEN &= ~(HAL_KEY_SW_6_IENBIT);   /* Clear interrupt enable bit */
-   \   00004E   C2BD         CLR     0xb8.5
+   \   00003F   C2BD         CLR     0xb8.5
     273              
     274              osal_set_event(Hal_TaskID, HAL_KEY_EVENT);
-   \   000050                ; Setup parameters for call to function osal_set_event
-   \   000050   7A01         MOV     R2,#0x1
-   \   000052   7B00         MOV     R3,#0x0
-   \   000054   90....       MOV     DPTR,#Hal_TaskID
-   \   000057   E0           MOVX    A,@DPTR
-   \   000058   F9           MOV     R1,A
-   \   000059   12....       LCALL   ??osal_set_event?relay
+   \   000041                ; Setup parameters for call to function osal_set_event
+   \   000041   7A01         MOV     R2,#0x1
+   \   000043   7B00         MOV     R3,#0x0
+   \   000045   90....       MOV     DPTR,#Hal_TaskID
+   \   000048   E0           MOVX    A,@DPTR
+   \   000049   F9           MOV     R1,A
+   \   00004A   12....       LCALL   ??osal_set_event?relay
     275            }
     276            
     277            /* Key now is configured */
     278            HalKeyConfigured = TRUE;
    \                     ??HalKeyConfig_1:
-   \   00005C   90....       MOV     DPTR,#HalKeyConfigured
-   \   00005F   7401         MOV     A,#0x1
-   \   000061   F0           MOVX    @DPTR,A
+   \   00004D   90....       MOV     DPTR,#HalKeyConfigured
+   \   000050   7401         MOV     A,#0x1
+   \   000052   F0           MOVX    @DPTR,A
     279          }
-   \   000062   FF           MOV     R7,A
-   \   000063   02....       LJMP    ?BANKED_LEAVE_XDATA
-   \   000066                REQUIRE PICTL
-   \   000066                REQUIRE P0IEN
-   \   000066                REQUIRE _A_IEN1
-   \   000066                REQUIRE P0IFG
-   \   000066                REQUIRE P2IEN
-   \   000066                REQUIRE IEN2
-   \   000066                REQUIRE P2IFG
+   \   000053   FF           MOV     R7,A
+   \   000054   02....       LJMP    ?BANKED_LEAVE_XDATA
+   \   000057                REQUIRE PICTL
+   \   000057                REQUIRE P0IEN
+   \   000057                REQUIRE _A_IEN1
+   \   000057                REQUIRE P0IFG
     280          
     281          
     282          /**************************************************************************************************
@@ -734,8 +701,8 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
    \   00003F   12....       LCALL   ?CALL_IND
     359            }
    \                     ??HalKeyPoll_2:
-   \   000042   02....       LJMP    ?Subroutine0 & 0xFFFF
-   \   000045                REQUIRE _A_P0
+   \   000042   80..         SJMP    ?Subroutine0
+   \   000044                REQUIRE _A_P0
     360          }
     361          
     362          /**************************************************************************************************
@@ -882,55 +849,41 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
    \   000004                ; Saved register size: 2
    \   000004                ; Auto size: 0
     428            bool valid=FALSE;
-   \   000004   7800         MOV     R0,#0x0
     429            
     430            if (HAL_KEY_SW_6_PXIFG & HAL_KEY_SW_6_BIT)  /* Interrupt Flag has been set */
-   \   000006   E589         MOV     A,0x89
-   \   000008   A2E4         MOV     C,0xE0 /* A   */.4
-   \   00000A   5004         JNC     ??halProcessKeyInterrupt_0
+   \   000004   E589         MOV     A,0x89
+   \   000006   A2E4         MOV     C,0xE0 /* A   */.4
+   \   000008   5013         JNC     ??halProcessKeyInterrupt_0
     431            {
     432              HAL_KEY_SW_6_PXIFG = ~(HAL_KEY_SW_6_BIT); /* Clear Interrupt Flag */
-   \   00000C   7589EF       MOV     0x89,#-0x11
+   \   00000A   7589EF       MOV     0x89,#-0x11
     433              valid = TRUE;
-   \   00000F   08           INC     R0
     434            }
     435            
-    436            if (HAL_KEY_JOY_MOVE_PXIFG & HAL_KEY_JOY_MOVE_BIT)  /* Interrupt Flag has been set */
-   \                     ??halProcessKeyInterrupt_0:
-   \   000010   E58B         MOV     A,0x8b
-   \   000012   A2E1         MOV     C,0xE0 /* A   */.1
-   \   000014   5005         JNC     ??halProcessKeyInterrupt_1
-    437            {
-    438              HAL_KEY_JOY_MOVE_PXIFG = ~(HAL_KEY_JOY_MOVE_BIT); /* Clear Interrupt Flag */
-   \   000016   758BFD       MOV     0x8b,#-0x3
-    439              valid = TRUE;
-   \   000019   8005         SJMP    ??halProcessKeyInterrupt_2
-    440            }
+    436            //if (HAL_KEY_JOY_MOVE_PXIFG & HAL_KEY_JOY_MOVE_BIT)  /* Interrupt Flag has been set */
+    437            //{
+    438            //  HAL_KEY_JOY_MOVE_PXIFG = ~(HAL_KEY_JOY_MOVE_BIT); /* Clear Interrupt Flag */
+    439            //  valid = TRUE;
+    440            //}
     441            
     442            if (valid)
-   \                     ??halProcessKeyInterrupt_1:
-   \   00001B   E8           MOV     A,R0
-   \   00001C   A2E0         MOV     C,0xE0 /* A   */.0
-   \   00001E   5010         JNC     ??halProcessKeyInterrupt_3
     443            {
     444              osal_start_timerEx (Hal_TaskID, HAL_KEY_EVENT, HAL_KEY_DEBOUNCE_VALUE);
-   \                     ??halProcessKeyInterrupt_2:
-   \   000020                ; Setup parameters for call to function osal_start_timerEx
-   \   000020   7C19         MOV     R4,#0x19
-   \   000022   7D00         MOV     R5,#0x0
-   \   000024   7A01         MOV     R2,#0x1
-   \   000026   7B00         MOV     R3,#0x0
-   \   000028   90....       MOV     DPTR,#Hal_TaskID
-   \   00002B   E0           MOVX    A,@DPTR
-   \   00002C   F9           MOV     R1,A
-   \   00002D   12....       LCALL   ??osal_start_timerEx?relay
+   \   00000D                ; Setup parameters for call to function osal_start_timerEx
+   \   00000D   7C19         MOV     R4,#0x19
+   \   00000F   7D00         MOV     R5,#0x0
+   \   000011   7A01         MOV     R2,#0x1
+   \   000013   7B00         MOV     R3,#0x0
+   \   000015   90....       MOV     DPTR,#Hal_TaskID
+   \   000018   E0           MOVX    A,@DPTR
+   \   000019   F9           MOV     R1,A
+   \   00001A   12....       LCALL   ??osal_start_timerEx?relay
     445            }
     446          }
-   \                     ??halProcessKeyInterrupt_3:
-   \   000030                REQUIRE ?Subroutine0
-   \   000030                REQUIRE P0IFG
-   \   000030                REQUIRE P2IFG
-   \   000030                ; // Fall through to label ?Subroutine0
+   \                     ??halProcessKeyInterrupt_0:
+   \   00001D                REQUIRE ?Subroutine0
+   \   00001D                REQUIRE P0IFG
+   \   00001D                ; // Fall through to label ?Subroutine0
     447          
     448          /**************************************************************************************************
     449          * @fn      HalKeyEnterSleep
@@ -1198,28 +1151,24 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
      P0IFG                             1
      P2IFG                             1
      PICTL                             1
-     IEN2                              1
      _A_IEN0                           1
      P0IEN                             1
-     P2IEN                             1
      _A_IEN1                           1
      _A_IRCON                          1
      _A_IRCON2                         1
      P0SEL                             1
-     P2SEL                             1
      P0DIR                             1
-     P2DIR                             1
      halKeySavedKeys                   1
      pHalKeyProcessFunction            2
      HalKeyConfigured                  1
      Hal_KeyIntEnable                  1
-     HalKeyInit                       34
+     HalKeyInit                       28
      ?Subroutine0                      7
-     HalKeyConfig                    102
+     HalKeyConfig                     87
      HalKeyRead                       11
-     HalKeyPoll                       69
+     HalKeyPoll                       68
      halGetJoyKeyInput                93
-     halProcessKeyInterrupt           48
+     halProcessKeyInterrupt           29
      HalKeyEnterSleep                  3
      HalKeyExitSleep                   9
      halKeyPort0Isr                   28
@@ -1237,15 +1186,15 @@ D:\zigbee\ZStack-CC2530-2.5.1a\Components\hal\target\CC2530EB\hal_key.c
      ??HalKeyExitSleep?relay           6
 
  
- 376 bytes in segment BANKED_CODE
+ 335 bytes in segment BANKED_CODE
   48 bytes in segment BANK_RELAYS
    6 bytes in segment INTVEC
   68 bytes in segment NEAR_CODE
-  15 bytes in segment SFR_AN
+  11 bytes in segment SFR_AN
    5 bytes in segment XDATA_Z
  
- 492 bytes of CODE  memory (+  6 bytes shared)
-   0 bytes of DATA  memory (+ 15 bytes shared)
+ 451 bytes of CODE  memory (+  6 bytes shared)
+   0 bytes of DATA  memory (+ 11 bytes shared)
    5 bytes of XDATA memory
 
 Errors: none
