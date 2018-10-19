@@ -461,9 +461,9 @@ st( \
 #ifndef HAL_UART_DMA
 #if HAL_DMA
 #if (defined ZAPP_P2) || (defined ZTOOL_P2)
-#define HAL_UART_DMA  2
+#define HAL_UART_DMA  0  //不用DMA,原来值是2
 #else
-#define HAL_UART_DMA  1
+#define HAL_UART_DMA  0  //不用DMA,原来值是1
 #endif
 #else
 #define HAL_UART_DMA  0
