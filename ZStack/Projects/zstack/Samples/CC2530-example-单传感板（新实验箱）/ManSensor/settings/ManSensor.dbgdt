@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>992</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>980</ColumnWidth1>
+        <ColumnWidth2>261</ColumnWidth2>
+        <ColumnWidth3>65</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>85</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        
+        
+      <MixedMode>1</MixedMode><CodeCovShow>0</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly>
+    </Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9920-23306</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-9397-23316</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20669-23309</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>ManSensor</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31417-23312</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ManSensor.c</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>333</SelStart><SelEnd>333</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-012eb440><key>iaridepm.enu1</key></Toolbar-012eb440></Sizes></Row0><Row1><Sizes><Toolbar-0135bea0><key>debuggergui.enu1</key></Toolbar-0135bea0></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>498</Bottom><Right>159</Right><x>-2</x><y>-2</y><xscreen>161</xscreen><yscreen>220</yscreen><sizeHorzCX>151458</sizeHorzCX><sizeHorzCY>310734</sizeHorzCY><sizeVertCX>151458</sizeVertCX><sizeVertCY>706215</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>498</Bottom><Right>221</Right><x>-2</x><y>-2</y><xscreen>161</xscreen><yscreen>220</yscreen><sizeHorzCX>151458</sizeHorzCX><sizeHorzCY>310734</sizeHorzCY><sizeVertCX>209784</sizeVertCX><sizeVertCY>706215</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>141</Bottom><Right>1065</Right><x>-2</x><y>-2</y><xscreen>1067</xscreen><yscreen>143</yscreen><sizeHorzCX>1003763</sizeHorzCX><sizeHorzCY>201977</sizeHorzCY><sizeVertCX>151458</sizeVertCX><sizeVertCY>310734</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

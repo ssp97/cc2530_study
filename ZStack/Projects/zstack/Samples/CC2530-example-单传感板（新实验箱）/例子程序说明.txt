@@ -1,0 +1,30 @@
+在IAR8.10版本上测试的例子程序。
+文件夹对应的例子程序说明如下：
+
+1.  LED自动闪烁实验：	\LED
+2.  定时器T1实验        \Timer1
+3.  定时器T3实验        \Timer3
+4.  定时器T4实验        \Timer4
+5.  UART串口实验	\uart0
+6.  AD转换实验1         \AD
+7.  睡眠定时器唤醒实验	\timer_wakeup
+8. 看门狗定时器实验	  \watchdog
+9. 数码管控制实验	  \seg7
+10. 温湿度传感器采集实验  \SHT10
+11. 压力传感器实验	  \PRESS
+12. 三轴加速度实验	  \Accelerometer
+13. 光照度传感器实验      \LIGHT
+14. 人体感应传感器实验    \ManSensor
+15. 振动传感器实验        \librate
+16. 可燃气体传感器实验    \Smog   
+17. 酒精传感器实验        \Alcohol
+18. 超声波测距传感器实验  \ultrasonic
+19. 雨滴传感器实验        \Rain   
+20. 霍尔传感器实验        \hall
+21. 蜂鸣器控制实验        \Buzzer
+22. 水流量传感器实验	  \WaterFlow
+23. 调光灯实验            \DimLight
+24. 震动马达实验          \Vibration motor
+25. 声音检测实验          \Voice
+26. 继电器实验            \Relay
+

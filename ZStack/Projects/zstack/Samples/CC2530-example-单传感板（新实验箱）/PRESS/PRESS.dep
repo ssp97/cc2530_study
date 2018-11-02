@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3640236296</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\Debug\Exe\PRESS.d51</file>
+      <file>$PROJ_DIR$\SERSOR.c</file>
+      <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
+      <file>$PROJ_DIR$\Debug\Exe\PRESS.hex</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\SERSOR.r51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\PRESS.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\PRESS.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\PRESS.pbd</file>
+      <file>$PROJ_DIR$\PRESS.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\SERSOR.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\PRESS.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3 8 6 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\SERSOR.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\PRESS.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 0 8 6 13</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\PRESS.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 9 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\PRESS.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

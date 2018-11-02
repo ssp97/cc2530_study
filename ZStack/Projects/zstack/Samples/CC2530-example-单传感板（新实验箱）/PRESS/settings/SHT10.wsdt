@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>SHT10/Debug</Project><Project>PRESS/Debug</Project></CurrentConfigs><CurrentProj>PRESS</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>185</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>980</ColumnWidth1><ColumnWidth2>261</ColumnWidth2><ColumnWidth3>65</ColumnWidth3></Build><Debug-Log><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window></Windows></PreferedWindows></Debug-Log><TerminalIO/></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5167-29958</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>PRESS</ExpandedNode><ExpandedNode>SHT10</ExpandedNode><ExpandedNode>SHT10/SERSOR.c</ExpandedNode><ExpandedNode>SHT10/SHT10.c</ExpandedNode><ExpandedNode>SHT10/SHT10.c/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-28986-13095</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>E:\&#x65B0;&#x4eA7;&#x54C1;&#x5F00;&#x53D1;\&#x7269;&#x8054;&#x7F51;\CVTECH\WSN\examples\SHT10\SHT10.c</Filename><XPos>0</XPos><YPos>65</YPos><SelStart>1686</SelStart><SelEnd>1700</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x65B0;&#x4eA7;&#x54C1;&#x5F00;&#x53D1;\&#x7269;&#x8054;&#x7F51;\CVTECH\WSN\examples\SHT10\SERSOR.c</Filename><XPos>0</XPos><YPos>1</YPos><SelStart>3256</SelStart><SelEnd>3256</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\Embedded Workbench 5.3\8051\inc\ioCC2530.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x65B0;&#x4eA7;&#x54C1;&#x5F00;&#x53D1;\&#x7269;&#x8054;&#x7F51;\CVTECH\WSN\examples\PRESS\PRESS.c</Filename><XPos>0</XPos><YPos>94</YPos><SelStart>1015</SelStart><SelEnd>1015</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>E:\&#x65B0;&#x4eA7;&#x54C1;&#x5F00;&#x53D1;\&#x7269;&#x8054;&#x7F51;\CVTECH\WSN\examples\PRESS\SERSOR.c</Filename><XPos>0</XPos><YPos>67</YPos><SelStart>2776</SelStart><SelEnd>2776</SelEnd></Tab><ActiveTab>4</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01388888><key>iaridepm.enu1</key></Toolbar-01388888></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes><Toolbar-058f7c60><key>debuggergui.enu1</key></Toolbar-058f7c60></Sizes></Row2></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>449</Bottom><Right>259</Right><x>-2</x><y>-2</y><xscreen>-2183953</xscreen><yscreen>-1022163</yscreen><sizeHorzCX>-1598794289</sizeHorzCX><sizeHorzCY>-1477114161</sizeHorzCY><sizeVertCX>191069</sizeVertCX><sizeVertCY>651734</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1368</Right><x>-2</x><y>-2</y><xscreen>1370</xscreen><yscreen>200</yscreen><sizeHorzCX>1002928</sizeHorzCX><sizeHorzCY>289017</sizeHorzCY><sizeVertCX>146413</sizeVertCX><sizeVertCY>289017</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

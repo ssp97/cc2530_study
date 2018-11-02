@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3507990499</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\Smog.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\SERSOR.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\Smog.d51</file>
+      <file>$PROJ_DIR$\Debug\Obj\SERSOR.r51</file>
+      <file>$TOOLKIT_DIR$\config\devices\_generic\lnk51ew_8052.xcl</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\Smog.r51</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Smog.c</file>
+      <file>$PROJ_DIR$\SERSOR.c</file>
+      <file>$PROJ_DIR$\Debug\Exe\Smog.hex</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\Smog.pbd</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Smog.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4 3 6 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Smog.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\SERSOR.c</name>
+      <outputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC8051</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Smog.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 5 3 6 11</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Smog.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 1 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

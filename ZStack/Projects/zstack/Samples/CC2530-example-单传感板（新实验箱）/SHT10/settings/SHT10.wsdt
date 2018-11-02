@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>SHT10/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>167</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+    <TerminalIO/><Disassembly><MixedMode>1</MixedMode><CodeCovShow>1</CodeCovShow><InstrProfShow>1</InstrProfShow></Disassembly></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9786-14553</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>SHT10</ExpandedNode><ExpandedNode>SHT10/Output</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16352-14635</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SERSOR.c</Filename><XPos>0</XPos><YPos>73</YPos><SelStart>2919</SelStart><SelEnd>2919</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SHT10.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>2265</SelStart><SelEnd>2265</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files\IAR Systems\Embedded Workbench 6.0 Evaluation\8051\inc\ioCC2530.h</Filename><XPos>0</XPos><YPos>9</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-013ea7c0><key>iaridepm.enu1</key></Toolbar-013ea7c0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>547</Bottom><Right>241</Right><x>-2</x><y>-2</y><xscreen>128</xscreen><yscreen>228</yscreen><sizeHorzCX>105785</sizeHorzCX><sizeHorzCY>287516</sizeHorzCY><sizeVertCX>200826</sizeVertCX><sizeVertCY>692308</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>201</Bottom><Right>1212</Right><x>-2</x><y>-2</y><xscreen>1214</xscreen><yscreen>203</yscreen><sizeHorzCX>1003306</sizeHorzCX><sizeHorzCY>255990</sizeHorzCY><sizeVertCX>105785</sizeVertCX><sizeVertCY>287516</sizeVertCY></Rect></Wnd2></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>Voice/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>167</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>678</ColumnWidth1><ColumnWidth2>181</ColumnWidth2><ColumnWidth3>45</ColumnWidth3></Build></Static>
+    <Windows>
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-31381-28275</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>Voice</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-21971-28452</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Voice.c</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>188</SelStart><SelEnd>188</SelEnd></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01addd28><key>iaridepm.enu1</key></Toolbar-01addd28></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>475</Bottom><Right>241</Right><x>-2</x><y>-2</y><xscreen>243</xscreen><yscreen>210</yscreen><sizeHorzCX>207338</sizeHorzCX><sizeHorzCY>288462</sizeHorzCY><sizeVertCX>207338</sizeVertCX><sizeVertCY>655220</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>208</Bottom><Right>1174</Right><x>-2</x><y>-2</y><xscreen>1176</xscreen><yscreen>210</yscreen><sizeHorzCX>1003413</sizeHorzCX><sizeHorzCY>288462</sizeHorzCY><sizeVertCX>207338</sizeVertCX><sizeVertCY>288462</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
